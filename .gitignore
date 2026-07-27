@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+
+# Build
+bin/
+obj/
+
+# Arquivos do usuário
+*.user
+*.suo
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
