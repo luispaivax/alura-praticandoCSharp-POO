@@ -40,4 +40,14 @@ Autor: {livro1.Autor}
 ");
 */
 
+/* Ex02
+
+*/
+Passagem passagem = new Passagem("Lucas", "Paris");
+
+Console.WriteLine($@"
+Passageiro: {passagem.Passageiro}
+Destino: {passagem.Destino}
+");
+
 
