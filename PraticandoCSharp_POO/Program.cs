@@ -41,13 +41,22 @@ Autor: {livro1.Autor}
 */
 
 /* Ex02
-
-*/
 Passagem passagem = new Passagem("Lucas", "Paris");
 
 Console.WriteLine($@"
 Passageiro: {passagem.Passageiro}
 Destino: {passagem.Destino}
 ");
+*/
 
+/* Ex03
 
+*/
+
+ContaBancaria conta = new ContaBancaria("78901-2", 1000.00);
+conta.Depositar(500.00);
+
+Console.WriteLine($@"
+Conta: {conta.NumeroConta}
+Saldo atual: R${conta.Saldo.ToString("F2")}
+");
