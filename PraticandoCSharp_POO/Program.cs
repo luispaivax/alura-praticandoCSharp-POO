@@ -50,9 +50,6 @@ Destino: {passagem.Destino}
 */
 
 /* Ex03
-
-*/
-
 ContaBancaria conta = new ContaBancaria("78901-2", 1000.00);
 conta.Depositar(500.00);
 
@@ -60,3 +57,32 @@ Console.WriteLine($@"
 Conta: {conta.NumeroConta}
 Saldo atual: R${conta.Saldo.ToString("F2")}
 ");
+*/
+
+/* Ex04 
+class Program
+{
+    static void Main(string[] args)
+    {
+        Funcionario funcionario = new Funcionario("Carlos Pereira", "Assistente Administrativo");
+
+        Console.WriteLine($"Funcionário: {funcionario.Nome}");
+        Console.WriteLine($"Cargo Atual: {funcionario.Cargo}");
+
+        Console.WriteLine("");
+
+        funcionario.Promover("Assistente Administrativo"); // Tentativa inválida
+
+        Console.WriteLine("");
+
+        funcionario.Promover("Analista de Projetos");       // Promoção válida
+
+        Console.WriteLine("--- Após promoção ---");
+        Console.WriteLine("Funcionário: " + funcionario.Nome);
+        Console.WriteLine("Cargo Atual: " + funcionario.Cargo);
+    }
+}
+*/
+
+
+

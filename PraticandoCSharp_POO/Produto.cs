@@ -41,9 +41,6 @@ class Passagem
 */
 
 /* Ex 03
-
-*/
-
 class ContaBancaria
 {
     public string NumeroConta { get; set; }
@@ -60,3 +57,34 @@ class ContaBancaria
         Saldo += valor;
     }
 }
+*/
+
+/* Ex 04 
+public class Funcionario
+{
+    public string Nome { get; set; }
+    public string Cargo { get; set; }
+
+    public Funcionario(string nomeFuncionario, string cargoAtual)
+    {
+        Nome = nomeFuncionario;
+        Cargo = cargoAtual;
+    }
+
+    public void Promover(string novoCargo)
+    {
+        if (novoCargo != Cargo)
+        {
+            Cargo = novoCargo;
+            Console.WriteLine("Promoção realizada com sucesso!");
+        }
+        else
+        {
+            Console.WriteLine("Erro: O novo cargo deve ser diferente do cargo atual.");
+        }
+    }
+}
+*/
+
+
+
