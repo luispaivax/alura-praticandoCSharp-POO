@@ -84,5 +84,19 @@ class Program
 }
 */
 
+/* Ex05
+class Program
+{
+    static void Main(string[] args)
+    {
+        Retangulo retangulo = new Retangulo();
+        retangulo.Altura = 5;
+        retangulo.Largura = 8;
+
+        Console.WriteLine($"Área do retângulo: {retangulo.CalcularArea()}");
+    }
+}
+*/
+
 
 
