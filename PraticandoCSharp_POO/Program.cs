@@ -98,5 +98,11 @@ class Program
 }
 */
 
+/* Ex06
+Filme filme = new Filme("Mad Max", 18);
+filme.ExibirResultado(23);
+filme.ExibirResultado(14);
+*/
+
 
 
