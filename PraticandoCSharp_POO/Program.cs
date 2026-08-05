@@ -104,5 +104,12 @@ filme.ExibirResultado(23);
 filme.ExibirResultado(14);
 */
 
+/* Ex07
 
+*/
+
+Produto produto = new Produto("Veneno para rato", 30);
+produto.Retirar(20);
+produto.ExibirEstoque();
+produto.Retirar(15);
 
