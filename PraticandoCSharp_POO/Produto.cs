@@ -131,9 +131,6 @@ public class Filme
 */
 
 /* Ex 07 
-
-*/
-
 public class Produto
 {
     public string Nome { get; set; }
@@ -162,5 +159,36 @@ public class Produto
     {
         Console.WriteLine($"Produto: {Nome}");
         Console.WriteLine($"Estoque: {quantidadeEstoque}");
+    }
+}
+*/
+
+/* Ex 08 
+
+*/
+
+public class Pedido
+{
+    public string NumeroPedido { get; set; }
+    public string NomeCliente { get; set; }
+    public string Status { get; set; }
+
+    public Pedido(string numeroPedido, string nomeCliente, string status)
+    {
+        NumeroPedido = numeroPedido;
+        NomeCliente = nomeCliente;
+        Status = status;
+    }
+
+    public void AtualizarStatus(string novoStatus)
+    {
+        Status = novoStatus;
+    }
+
+    public void ExibirPedido()
+    {
+        Console.WriteLine($"Pedido n° {NumeroPedido}");
+        Console.WriteLine($"Cliente: {NomeCliente}");
+        Console.WriteLine($"Status: {Status}");
     }
 }

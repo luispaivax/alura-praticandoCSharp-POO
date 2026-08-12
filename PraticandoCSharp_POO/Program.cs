@@ -105,11 +105,18 @@ filme.ExibirResultado(14);
 */
 
 /* Ex07
-
-*/
-
 Produto produto = new Produto("Veneno para rato", 30);
 produto.Retirar(20);
 produto.ExibirEstoque();
 produto.Retirar(15);
+*/
 
+/* Ex08 
+
+*/
+
+Pedido pedido = new Pedido("001", "Manoel Gomes", "Pendende");
+pedido.ExibirPedido();
+pedido.AtualizarStatus("Enviado");
+Console.WriteLine("__________________");
+pedido.ExibirPedido();
