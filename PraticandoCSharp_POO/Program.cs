@@ -119,3 +119,10 @@ Console.WriteLine("__________________");
 pedido.ExibirPedido();
 */
 
+/* Ex09 
+Consulta consulta = new Consulta("Chico", "Dr. Rogério", new DateTime(2026, 10, 12) );
+consulta.ExibirResumo();
+consulta.Reagendar(new DateTime(2026, 11, 26));
+consulta.ExibirResumo();
+*/
+
