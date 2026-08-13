@@ -112,11 +112,10 @@ produto.Retirar(15);
 */
 
 /* Ex08 
-
-*/
-
 Pedido pedido = new Pedido("001", "Manoel Gomes", "Pendende");
 pedido.ExibirPedido();
 pedido.AtualizarStatus("Enviado");
 Console.WriteLine("__________________");
 pedido.ExibirPedido();
+*/
+

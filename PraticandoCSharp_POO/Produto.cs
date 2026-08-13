@@ -164,9 +164,6 @@ public class Produto
 */
 
 /* Ex 08 
-
-*/
-
 public class Pedido
 {
     public string NumeroPedido { get; set; }
@@ -192,3 +189,5 @@ public class Pedido
         Console.WriteLine($"Status: {Status}");
     }
 }
+*/
+
