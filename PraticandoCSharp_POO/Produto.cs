@@ -231,3 +231,40 @@ public class Consulta
 */
 
 
+/* Ex 10 
+
+*/
+
+public class InformacaoTecnica
+{
+    public int TamanhoMB { get; set; }
+    public string SistemaOperacional { get; set; }
+
+    public InformacaoTecnica(int tamanho, string sistema)
+    {
+        TamanhoMB = tamanho;
+        SistemaOperacional = sistema;
+    }
+}
+
+public class ProdutoDigital
+{
+    public string Nome { get; set; }
+    public double Preco { get; set; }
+    public InformacaoTecnica InfoTecnica { get; set; }
+
+    public ProdutoDigital(string nome, double preco, InformacaoTecnica info)
+    {
+        Nome = nome;
+        Preco = preco;
+        InfoTecnica = info;    
+    }
+
+    public void ExibirDetalhes()
+    {
+        Console.WriteLine($"Produto: {Nome}");
+        Console.WriteLine($"Preço: {Preco}");
+        Console.WriteLine("Tamanho: " + InfoTecnica.TamanhoMB + "MB");
+        Console.WriteLine("Compatível com: " + InfoTecnica.SistemaOperacional);
+    }
+}
